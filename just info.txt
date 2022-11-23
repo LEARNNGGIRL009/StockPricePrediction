@@ -1,0 +1,28 @@
+
+D:\NLP>git add readme.md
+
+D:\NLP>git remote add origin https://github.com/vijivenu89/NLP-Collection.git
+error: remote origin already exists.
+
+D:\NLP>git commit -m "first commit"
+[main c48775b] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.md
+
+D:\NLP>git branch -M main
+
+D:\NLP>git remote add origin https://github.com/vijivenu89/NLP-Collection.git
+error: remote origin already exists.
+
+D:\NLP>git remote add origin1 https://github.com/vijivenu89/NLP-Collection.git
+
+D:\NLP>git push -u origin1 main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 483 bytes | 483.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/vijivenu89/NLP-Collection.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin1/main'.
